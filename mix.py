@@ -50,7 +50,7 @@ def basic():
   print(logo)
   
 def pkg():
-  
+  os.system("cd Box")
   os.system("python Compile.py")
   print(logo)
 
