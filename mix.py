@@ -29,7 +29,7 @@ def Main():
 	print('\x1b[38;5;196m[\x1b[38;5;46m0\x1b[38;5;196m]\033[1;32m Exit')
 	print(58*'═')
 	opt = input('\x1b[38;5;196mChoose :> \x1b[38;5;46m')
-	if opt =='1';
+	if opt =='1':
 		basic()
 	if opt =='2':
 		pkg()
