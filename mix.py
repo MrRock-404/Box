@@ -43,12 +43,10 @@ def Main():
 		print('\n\x1b[38;5;196mChoose valid option');time.sleep(1)
 		Main()
 def basic():
-  os.system("rm -rf Compile
-git clone https://github.com/MrRock-404/Compile
-cd Compile
-python Hunter_compile.py")
-  
-  
+  os.system("rm -rf Compile")
+  os.system("git clone https://github.com/MrRock-404/Compile")
+  os.system("cd Compile")
+  os.system("python Compile.py")	
   print(logo)
   
 def pkg():
